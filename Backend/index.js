@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(cors());
 
 //Database connection with mongodb
-//mongoose.connect("mongodb+srv://sushma:Sushma123@cluster0.74sese3.mongodb.net/e-com");
 mongoose.connect("mongodb+srv://panugantiaishwarya11:Aishwarya123@cluster0.v5sbu.mongodb.net/e-com");
 //API Creation
 app.get("/",(req,res)=>{
